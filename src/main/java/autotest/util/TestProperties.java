@@ -21,7 +21,7 @@ public class TestProperties {
     }
 
     public static TestProperties getInstance(){
-        if (INSTANCE==null){
+        if (INSTANCE == null){
             INSTANCE = new TestProperties();
         }
         return INSTANCE;

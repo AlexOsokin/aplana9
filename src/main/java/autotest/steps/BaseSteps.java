@@ -15,6 +15,5 @@ public class BaseSteps {
     @After
     public void closeDriver(){
         Init.closeDriver();
-
     }
 }

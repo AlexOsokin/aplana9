@@ -17,7 +17,6 @@ public class Init {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Integer.parseInt(props.getProperty("timeout.global")), TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(Integer.parseInt(props.getProperty("timeout.pageLoad")), TimeUnit.SECONDS);
-        driver.get(props.getProperty("url"));
     }
 
     public static WebDriver getDriver(){
